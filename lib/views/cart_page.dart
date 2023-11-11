@@ -78,7 +78,7 @@ class CartPage extends StatelessWidget {
             GetX<CartAddingController>(builder: (controller) {
               return Text(
                 "Total Amount: \$ ${controller.totalPrice}",
-                style: TextStyle(
+                style: const TextStyle(
                     color: Colors.black87,
                     fontSize: 30,
                     fontWeight: FontWeight.bold),
@@ -93,9 +93,17 @@ class CartPage extends StatelessWidget {
       floatingActionButton: FloatingActionButton.extended(
           onPressed: () {},
           backgroundColor: Colors.black,
-          icon: Icon(Icons.add_shopping_cart_rounded),
+          icon: const Icon(
+            Icons.add_shopping_cart,
+            color: Colors.white,
+          ),
           label: GetX<CartAddingController>(builder: (controller) {
-            return Text(controller.count.toString());
+            return Text(
+              controller.count.toString(),
+              style: const TextStyle(
+                color: Colors.white,
+              ),
+            );
           })),
     );
   }

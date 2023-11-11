@@ -1,6 +1,13 @@
 # getx_add_to_cart
+Add to Cart Page.
 
-A new Flutter project.
+In this repository contains simple Add to cart UI design and functions using Flutter State Management technique GetX.
+
+## Screenshots
+
+| Cart Screen |
+|--------------|
+|![image](assets/images/op.png)|
 
 ## Getting Started
 
