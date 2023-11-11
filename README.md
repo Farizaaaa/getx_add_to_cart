@@ -7,7 +7,7 @@ In this repository contains simple Add to cart UI design and functions using Flu
 
 | Cart Screen |
 |--------------|
-|![image](assets/images/op.png)|
+|![image](images/op.png)|
 
 ## Getting Started
 
